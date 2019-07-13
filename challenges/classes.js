@@ -55,10 +55,10 @@ const babycuboid = new CubeMaker ({
 });
 
 // Test your volume and surfaceArea methods by uncommenting the logs below:
-console.log(cuboid1.volume()); // 100
-console.log(cuboid1.surfaceArea()); // 130
-console.log(babycuboid.volume());
-console.log(babycuboid.surfaceArea());
+console.log("volume of the cuboid", cuboid1.volume()); // 100
+console.log("surfaceArea of the cuboid", cuboid1.surfaceArea()); // 130
+console.log("volume of the cube", babycuboid.volume());
+console.log("surfaceArea of the cube", babycuboid.surfaceArea());
 
 
 
