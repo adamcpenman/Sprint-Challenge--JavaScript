@@ -17,18 +17,12 @@ function consume (a,b, callback) {
   * Create a function named greeting that accepts a first and last name and returns "Hello first-name last-name, nice to meet you!"
 */
 
- function consume(x, y, cb) {
-  add(x,y) 
-  return cb(x,y);
-}
+
 function add(x, y) {
   return x + y;
 }
 
-function consume(e,f,cb) {
-  multiply(e,f)
-  return cb(e,f);
-}
+
 function multiply(e,f) {
   return e * f;
 }
@@ -51,6 +45,10 @@ console.log(greeting("Mary", "Poppins"));
 // Explain in your own words why `nestedfunction()` can access the variable `internal`.
 
 // Explanation: 
+/* Because it inherits from the parent and can claim whatever is above it. Nested Functions are 
+are like legos, the bottom lego is the base, then it continues to be built on. the very top lego 
+inherits all of the other legos functionality and can access anyones, the bottom layer only has access
+to their own but we need that in order to start building a foundation. */
 
 
 const external = "I'm outside the function";
