@@ -69,4 +69,5 @@ console.log(babycuboid.surfaceArea());
 
 //THE stretch goal states to FIND OUT THE FORMULAS FOR VOLUME AND SURFACE AREA FOR CUBES but we already have 
 //the forumlas for a cubes with this challenge. I still created a sub class called CubeMaker and gave it different
-// amounts, but that was weird usage of words since, again, we have the forumales already. 
+// amounts, but that was weird usage of words since, again, we have the forumales already. Unless the directions 
+//are meaning something complete different then what I am understanding it as. =) 

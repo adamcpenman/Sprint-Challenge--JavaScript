@@ -49,9 +49,7 @@ console.log(dino1.period);
 
 
 // Create a new roar method for the tyrannosaurus.  When called, return "RAWERSRARARWERSARARARRRR!" Log the result.
-//  tyrannosaurus.roar = function () {
-//     return "RAWERSRARARWERSARARARRRR!";
-//   }
+//  
 console.log(dino1.roar());
 
 
@@ -101,6 +99,7 @@ for (let i = 0; i < graduates.length; i++) {
 console.log(uni);
 
 
+
 // ==== ADVANCED Array Methods ====
 
 // Given this zoo data from around the United States, follow the instructions below.  Use the specific array methods in the requests below to solve the problems.
@@ -126,7 +125,7 @@ const animalNames = [];
 zooAnimals.forEach((element) =>
   animalNames.push(`${element.animal_name} ${element.scientific_name}`)
 );
-console.log(animalNames);
+console.log(animalNames, "used forEach");
 
 /* Request 2: .map()    
 
@@ -137,7 +136,7 @@ The zoos need a list of all their animal's names (names only, not scientific) co
 let lowerCase = [];
 lowerCase = zooAnimals.map((item) => 
  item.animal_name.toLowerCase());
-console.log(lowerCase); 
+console.log(lowerCase, "used map"); 
 
 /* Request 3: .filter() 
 
@@ -145,7 +144,7 @@ The zoos are concenred about animals with a lower population count. Find out whi
 
 */
 let lowerPopulation = zooAnimals.filter((few) => few.population <= 5);
-console.log(lowerPopulation);
+console.log(lowerPopulation, "used filter");
 
 /* Request 4: .reduce() 
 
@@ -156,7 +155,7 @@ Find the total population from all the zoos using the .reduce() method.
 let populationTotal = 
 zooAnimals.reduce((total, allAnimals) => 
 total + allAnimals.population, 0);
-console.log(populationTotal);
+console.log(populationTotal, "used reduce");
 
 
 /* 
