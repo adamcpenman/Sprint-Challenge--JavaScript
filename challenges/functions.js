@@ -19,7 +19,7 @@ function consume (a,b, callback) {
 
 
 function add(x, y) {
-  return x + y;
+  console.log (x + y, "adding");
 }
 
 
@@ -35,7 +35,7 @@ function greeting (first_name, last_name) {
 /* Step 3: Check your work by un-commenting the following calls to consume(): */
 // Im unsure if this is what the directions were asking. I console.log my code and got the correct numbers and string back.
 consume(2,2,add);// 4
-console.log(add(2,2));
+// console.log(add(2,2));
 consume(10,16,multiply); // 160
 console.log(multiply(10,16));
 consume("Mary","Poppins", greeting); // Hello Mary Poppins, nice to meet you!
