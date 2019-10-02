@@ -29,15 +29,20 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. Describe the biggest difference between `.forEach` & `.map`.
-
+.map creates a new array .forEach does now.
 2. What is the difference between a function and a method?
-
+functions are defined outside of classes, while methods are defined inside of and part of classes. 
 3. What is closure?
-
+When we declare functions, they contain funciton definition and closure. Closure is all the code of the variable in that specific scope when we create it. 
 4. Describe the four rules of the 'this' keyword.
+Global Binding, Implicit Binding, New Binding, Explicit Binding.
+Global Binding  is everything in the window. Calling "this" in the global scope you will get back everything in that browser.
+Inplicit Binding is everything called before the dot (.) is this.
+New Binding is referring to the new onject being create and being returned back to the constructor function
+Explicit Binding is when call or apply methods are used. 
 
 5. Why do we need super() in an extended class?
-
+It is used to tell the parent to pay attention to the child's attributes as well. So they can live in harmony together in that specific child. 
 ## Project Set up
 
 Follow these steps to set up and work on your project:
@@ -85,3 +90,6 @@ In your solutions, it is essential that you follow best practices and produce cl
 ## Stretch Problems
 
 There are a few stretch problems found throughout the files, don't work on them until you are finished with MVP requirements!
+
+
+Adam Penman 
